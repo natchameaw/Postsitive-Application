@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfacebook"
+    android:weightSum="1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ตั้งค่าไทม์ไลน์ (Timeline)"
+        android:textStyle="bold"
+        android:textColor="#FFFF"
+        android:textSize="15dp"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:textColor="#000000"
+        android:text="คุณต้องการเห็นโพสต์ใดแสดงบนไทม์ไลน์บ้าง?" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โพสต์ของสถานะที่แสดงทัศนคติทางบวก" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:text="โพสต์ของสถานะที่แสดงทัศนคติเป็นกลาง"
+        android:layout_weight="0.03" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="โพสต์ของสถานะที่แสดงทัศนคติเป็นลบ" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_weight="0.07"
+        android:text="ตั้งค่าการแจ้งเตือน (Notification)"
+        android:textColor="#FFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:text="รับการแจ้งเตือนเมื่อคุณโพสต์สถานะที่แสดงทัศนคติทางลบบ่อยครั้ง"
+        android:layout_weight="0.08" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="รับการแจ้งเตือนเมื่อเพื่อนสนิท (Close Friends) โพสต์สถานะ" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="ตั้งค่าการโพสต์ (Post via Application)"
+        android:textColor="#FFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="ถ้าสถานะที่โพสต์แสดงทัศนคติเชิงบวก จะโพสต์ไปยังไทม์ไลน์ทันที" />
+</LinearLayout>

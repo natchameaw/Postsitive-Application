@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profileview"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/profileview3"
+        android:layout_marginTop="46dp"
+        android:onClick="onPictureID">
+
+    </com.facebook.login.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/nameFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="130dp"
+        android:text="TextView" />
+
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profileview2"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/profileview4"
+        android:layout_alignTop="@+id/profileview"
+        android:onClick="onPictureID"></com.facebook.login.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/nameFriend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameFriend4"
+        android:layout_alignTop="@+id/nameFriend"
+        android:text="TextView" />
+
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profileview4"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/profileview3"
+        android:layout_marginEnd="50dp"
+        android:onClick="onPictureID"></com.facebook.login.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/nameFriend3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameFriend"
+        android:layout_alignTop="@+id/nameFriend4"
+        android:text="TextView" />
+
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profileview3"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="203dp"
+        android:onClick="onPictureID"></com.facebook.login.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/nameFriend4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="208dp"
+        android:layout_marginEnd="62dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

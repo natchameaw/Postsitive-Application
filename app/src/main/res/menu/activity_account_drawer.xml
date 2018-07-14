@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"
+            />
+        <item
+            android:id="@+id/friendlist"
+            android:icon="@drawable/ic_friend"
+            android:title="Friends List" />
+        <item
+            android:id="@+id/timeline"
+            android:icon="@drawable/ic_timeline"
+            android:title="Timeline" />
+        <item
+            android:id="@+id/graph"
+            android:icon="@drawable/ic_graph"
+            android:title="Summary Graph" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_setting"
+            android:title="Setting" />
+
+
+
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/ic_fb"
+            android:title="Go to Facebook" />
+
+
+    </group>
+
+</menu>
